@@ -11,4 +11,4 @@ RUN php -r "copy('http://getcomposer.org/installer', 'composer-setup.php');" \
 
 RUN composer global require "laravel/installer"
 
-WORKDIR /var/www/html/project
+WORKDIR /var/www/html
